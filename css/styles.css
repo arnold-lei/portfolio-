@@ -29,27 +29,31 @@ a:hover, a:active, a:focus {
   text-transform: uppercase;
   display: inline-block;
 }
+.about-me{
+  padding: 10%;
 
+}
 #main-title {
   font-family: "BebasNeueRegular", Arial, sans-serif;
   font-size: 78px !important;  
   margin-top: 200px;
   margin-bottom: 10px;
+  text-shadow: 1px 1px rgba(0,0,0,0.5);
 
 }
 #sub-title{
   font-size: 48px;
   font-family: "Vijaya", Arial, sans-serif;
   line-height: 1em;
-
+  text-shadow: 1px 1px rgba(0,0,0,0.5);
 }
-.panel {
-  margin-top: 50px;
+.panel {  
   background-color: #f5f5f5;
-  height:500px;
-  padding-left: 3em;
+  height:500px; 
+  padding: 10%;
   box-shadow: 0 0 0  rgba(0,0,0,0);
 }
+/* blue #9ddbda; */
 .panel-picture{
   background-color: #9ddbda;
   padding:3em;
