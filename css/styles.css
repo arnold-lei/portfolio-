@@ -1,0 +1,65 @@
+
+h2{
+  color: #92278f;
+  margin-top: 1em;
+}
+
+body{
+  color: #4c4c4c;
+  background-color: #f5f5f5;
+}
+a:hover, a:active, a:focus { 
+  outline: 0; 
+  color: #fff; 
+  text-decoration: none; 
+}
+
+#main-title {
+  font-family: "BebasNeueRegular", Arial, sans-serif;
+  font-size: 78px !important;  
+  margin-top: 200px;
+  margin-bottom: 10px;
+
+}
+#sub-title{
+  font-size: 48px;
+  font-family: "Vijaya", Arial, sans-serif;
+  line-height: 1em;
+}
+
+.portfolio-panel { 
+  background-image: url("../img/arnold-china.jpg");
+  height:550px;
+  -webkit-background-size: cover!important; 
+  -moz-background-size: cover!important; 
+  -o-background-size: cover!important; 
+  background-size: cover!important;
+  color: #fff; 
+  font-family: "Vijaya", Arial, sans-serif; 
+  font-size: 49px; line-height: 1em;
+
+  }
+  .center{
+    text-align: center;
+  }
+.icon{
+  height:52px;
+  margin-top: 1em;
+  margin-right: .5em;
+}
+#icon{
+}
+/* fonts panel */
+@font-face {
+    font-family:'BebasNeueRegular';
+    src: url('../font/BebasNeue-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Vijaya';
+    src: url('../font/Vijaya.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
