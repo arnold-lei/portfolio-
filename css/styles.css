@@ -21,6 +21,14 @@ a:hover, a:active, a:focus {
   text-decoration: none; 
 }
 
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
 .button{
   border-radius: 0px;
   color: #4c4c4c;
